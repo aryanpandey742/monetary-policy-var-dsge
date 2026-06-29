@@ -1,0 +1,75 @@
+Starting Dynare (version 6.5).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ...
+Found 16 equation(s).
+Evaluating expressions...
+Computing static model derivatives (order 1).
+Normalizing the static model...
+Finding the optimal block decomposition of the static model...
+9 block(s) found:
+  8 recursive block(s) and 1 simultaneous block(s).
+  the largest simultaneous block has 3 equation(s)
+                                 and 3 feedback variable(s).
+Computing dynamic model derivatives (order 2).
+Normalizing the dynamic model...
+Finding the optimal block decomposition of the dynamic model...
+7 block(s) found:
+  6 recursive block(s) and 1 simultaneous block(s).
+  the largest simultaneous block has 3 equation(s)
+                                 and 3 feedback variable(s).
+Preprocessing completed.
+Preprocessing time: 0h00m00s.
+
+
+Residuals of the static equations:
+Equation number  1: pi           :       0.000000
+Equation number  2: y_gap        :       0.000000
+Equation number  3: i            :       0.000000
+Equation number  4: r_nat        :       0.000000
+Equation number  5: r_real       :       0.000000
+Equation number  6: y_nat        :       0.000000
+Equation number  7: 7            :       0.000000
+Equation number  8: nu           :       0.000000
+Equation number  9: a            :       0.000000
+Equation number 10: y            :       0.000000
+Equation number 11: m_growth_ann :       0.000000
+Equation number 12: m_real       :       0.000000
+Equation number 13: i_ann        :       0.000000
+Equation number 14: r_real_ann   :       0.000000
+Equation number 15: r_nat_ann    :       0.000000
+Equation number 16: pi_ann       :       0.000000
+
+
+
+STEADY-STATE RESULTS:
+
+pi           		 0
+y_gap        		 0
+y_nat        		 0
+y            		 0
+r_nat        		 0
+r_real       		 0
+i            		 0
+n            		 0
+m_real       		 0
+m_growth_ann 		 0
+a            		 0
+r_real_ann   		 0
+i_ann        		 0
+r_nat_ann    		 0
+pi_ann       		 0
+nu           		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+               0                0                0
+               0                0                0
+             0.5              0.5                0
+             0.9              0.9                0
+           1.157            1.135            0.225
+           1.157            1.135           -0.225
+             Inf              Inf                0
+
+There are 3 eigenvalue(s) larger than 1 in modulus for 3 forward-looking variable(s)
+The rank condition is verified.
+

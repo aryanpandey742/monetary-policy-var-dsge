@@ -1,0 +1,1446 @@
+Starting Dynare (version 6.5).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ...
+Found 16 equation(s).
+Evaluating expressions...
+Computing static model derivatives (order 1).
+Normalizing the static model...
+Finding the optimal block decomposition of the static model...
+9 block(s) found:
+  8 recursive block(s) and 1 simultaneous block(s).
+  the largest simultaneous block has 3 equation(s)
+                                 and 3 feedback variable(s).
+Computing dynamic model derivatives (order 2).
+Normalizing the dynamic model...
+Finding the optimal block decomposition of the dynamic model...
+7 block(s) found:
+  6 recursive block(s) and 1 simultaneous block(s).
+  the largest simultaneous block has 3 equation(s)
+                                 and 3 feedback variable(s).
+Preprocessing completed.
+Preprocessing time: 0h00m00s.
+
+
+Residuals of the static equations:
+Equation number  1: pi           :       0.000000
+Equation number  2: y_gap        :       0.000000
+Equation number  3: i            :       0.000000
+Equation number  4: r_nat        :       0.000000
+Equation number  5: r_real       :       0.000000
+Equation number  6: y_nat        :       0.000000
+Equation number  7: 7            :       0.000000
+Equation number  8: nu           :       0.000000
+Equation number  9: a            :       0.000000
+Equation number 10: y            :       0.000000
+Equation number 11: m_growth_ann :       0.000000
+Equation number 12: m_real       :       0.000000
+Equation number 13: i_ann        :       0.000000
+Equation number 14: r_real_ann   :       0.000000
+Equation number 15: r_nat_ann    :       0.000000
+Equation number 16: pi_ann       :       0.000000
+
+
+
+STEADY-STATE RESULTS:
+
+pi           		 0
+y_gap        		 0
+y_nat        		 0
+y            		 0
+r_nat        		 0
+r_real       		 0
+i            		 0
+n            		 0
+m_real       		 0
+m_growth_ann 		 0
+a            		 0
+r_real_ann   		 0
+i_ann        		 0
+r_nat_ann    		 0
+pi_ann       		 0
+nu           		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+               0                0                0
+               0                0                0
+             0.5              0.5                0
+             0.9              0.9                0
+           1.157            1.135            0.225
+           1.157            1.135           -0.225
+             Inf              Inf                0
+
+There are 3 eigenvalue(s) larger than 1 in modulus for 3 forward-looking variable(s)
+The rank condition is verified.
+
+
+MODEL SUMMARY
+
+  Number of variables:         16
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  10
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a    eps_nu
+eps_a        0.000000  0.000000
+eps_nu       0.000000  0.062500
+
+POLICY AND TRANSITION FUNCTIONS
+                               y_gap          pi_ann           i_ann      r_real_ann    m_growth_ann              nu
+y(-1)                              0               0               0               0       -4.000000               0
+i(-1)                              0               0               0               0       16.000000               0
+nu(-1)                     -0.561687       -0.595783        0.825483        1.123374       -6.144461        0.500000
+a(-1)                      -0.093542       -0.459688       -0.736302       -0.322583        5.711355               0
+eps_a                      -0.103935       -0.510764       -0.818114       -0.358426        6.345950               0
+eps_nu                     -1.123374       -1.191565        1.650965        2.246748      -12.288922        1.000000
+
+
+THEORETICAL MOMENTS
+VARIABLE             MEAN  STD. DEV.   VARIANCE
+y_gap              0.0000     0.3243     0.1052
+pi_ann             0.0000     0.3440     0.1183
+i_ann              0.0000     0.4766     0.2271
+r_real_ann         0.0000     0.6486     0.4207
+m_growth_ann       0.0000     3.3886    11.4829
+nu                 0.0000     0.2887     0.0833
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                 eps_a  eps_nu
+y_gap             0.00  100.00
+pi_ann            0.00  100.00
+i_ann             0.00  100.00
+r_real_ann        0.00  100.00
+m_growth_ann      0.00  100.00
+nu                0.00  100.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables              y_gap        pi_ann         i_ann    r_real_ann  m_growth_ann            nu
+y_gap                 1.0000        1.0000       -1.0000       -1.0000        0.5742       -1.0000
+pi_ann                1.0000        1.0000       -1.0000       -1.0000        0.5742       -1.0000
+i_ann                -1.0000       -1.0000        1.0000        1.0000       -0.5742        1.0000
+r_real_ann           -1.0000       -1.0000        1.0000        1.0000       -0.5742        1.0000
+m_growth_ann          0.5742        0.5742       -0.5742       -0.5742        1.0000       -0.5742
+nu                   -1.0000       -1.0000        1.0000        1.0000       -0.5742        1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                 1        2        3        4        5
+y_gap            0.5000   0.2500   0.1250   0.0625   0.0312
+pi_ann           0.5000   0.2500   0.1250   0.0625   0.0313
+i_ann            0.5000   0.2500   0.1250   0.0625   0.0312
+r_real_ann       0.5000   0.2500   0.1250   0.0625   0.0312
+m_growth_ann    -0.2423  -0.1211  -0.0606  -0.0303  -0.0151
+nu               0.5000   0.2500   0.1250   0.0625   0.0312
+
+MODEL SUMMARY
+
+  Number of variables:         16
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  10
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a    eps_nu
+eps_a        0.000000  0.000000
+eps_nu       0.000000  0.062500
+
+POLICY AND TRANSITION FUNCTIONS
+                               y_gap          pi_ann           i_ann      r_real_ann    m_growth_ann              nu
+y(-1)                              0               0               0               0       -4.000000               0
+i(-1)                              0               0               0               0       16.000000               0
+nu(-1)                     -0.092775       -1.768061       -0.698480        0.185551        0.654756        0.500000
+a(-1)                      -0.006682       -0.589977       -0.888307       -0.357327        6.536521               0
+eps_a                      -0.007424       -0.655530       -0.987007       -0.397030        7.262801               0
+eps_nu                     -0.185551       -3.536123       -1.396960        0.371102        1.309512        1.000000
+
+
+THEORETICAL MOMENTS
+VARIABLE             MEAN  STD. DEV.   VARIANCE
+y_gap              0.0000     0.0536     0.0029
+pi_ann             0.0000     1.0208     1.0420
+i_ann              0.0000     0.4033     0.1626
+r_real_ann         0.0000     0.1071     0.0115
+m_growth_ann       0.0000     1.2533     1.5708
+nu                 0.0000     0.2887     0.0833
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                 eps_a  eps_nu
+y_gap             0.00  100.00
+pi_ann            0.00  100.00
+i_ann             0.00  100.00
+r_real_ann        0.00  100.00
+m_growth_ann      0.00  100.00
+nu                0.00  100.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables              y_gap        pi_ann         i_ann    r_real_ann  m_growth_ann            nu
+y_gap                 1.0000        1.0000        1.0000       -1.0000        0.2564       -1.0000
+pi_ann                1.0000        1.0000        1.0000       -1.0000        0.2564       -1.0000
+i_ann                 1.0000        1.0000        1.0000       -1.0000        0.2564       -1.0000
+r_real_ann           -1.0000       -1.0000       -1.0000        1.0000       -0.2564        1.0000
+m_growth_ann          0.2564        0.2564        0.2564       -0.2564        1.0000       -0.2564
+nu                   -1.0000       -1.0000       -1.0000        1.0000       -0.2564        1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                1       2       3       4       5
+y_gap           0.5000  0.2500  0.1250  0.0625  0.0312
+pi_ann          0.5000  0.2500  0.1250  0.0625  0.0313
+i_ann           0.5000  0.2500  0.1250  0.0625  0.0312
+r_real_ann      0.5000  0.2500  0.1250  0.0625  0.0312
+m_growth_ann    0.2475  0.1238  0.0619  0.0309  0.0155
+nu              0.5000  0.2500  0.1250  0.0625  0.0312
+
+MODEL SUMMARY
+
+  Number of variables:         16
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  10
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a    eps_nu
+eps_a        0.000000  0.000000
+eps_nu       0.000000  0.062500
+
+POLICY AND TRANSITION FUNCTIONS
+                               y_gap          pi_ann           i_ann      r_real_ann    m_growth_ann              nu
+y(-1)                              0               0               0               0       -4.000000               0
+i(-1)                              0               0               0               0       16.000000               0
+nu(-1)                     -0.363636       -1.090909        0.181818        0.727273       -3.272727        0.500000
+a(-1)                      -0.038963       -0.541555       -0.831814       -0.344415        6.229848               0
+eps_a                      -0.043293       -0.601728       -0.924238       -0.382683        6.922053               0
+eps_nu                     -0.727273       -2.181818        0.363636        1.454545       -6.545455        1.000000
+
+
+THEORETICAL MOMENTS
+VARIABLE             MEAN  STD. DEV.   VARIANCE
+y_gap              0.0000     0.2099     0.0441
+pi_ann             0.0000     0.6298     0.3967
+i_ann              0.0000     0.1050     0.0110
+r_real_ann         0.0000     0.4199     0.1763
+m_growth_ann       0.0000     1.6664     2.7769
+nu                 0.0000     0.2887     0.0833
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                 eps_a  eps_nu
+y_gap             0.00  100.00
+pi_ann            0.00  100.00
+i_ann             0.00  100.00
+r_real_ann        0.00  100.00
+m_growth_ann      0.00  100.00
+nu                0.00  100.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables              y_gap        pi_ann         i_ann    r_real_ann  m_growth_ann            nu
+y_gap                 1.0000        1.0000       -1.0000       -1.0000        0.7559       -1.0000
+pi_ann                1.0000        1.0000       -1.0000       -1.0000        0.7559       -1.0000
+i_ann                -1.0000       -1.0000        1.0000        1.0000       -0.7559        1.0000
+r_real_ann           -1.0000       -1.0000        1.0000        1.0000       -0.7559        1.0000
+m_growth_ann          0.7559        0.7559       -0.7559       -0.7559        1.0000       -0.7559
+nu                   -1.0000       -1.0000        1.0000        1.0000       -0.7559        1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                 1        2        3        4        5
+y_gap            0.5000   0.2500   0.1250   0.0625   0.0312
+pi_ann           0.5000   0.2500   0.1250   0.0625   0.0313
+i_ann            0.5000   0.2500   0.1250   0.0625   0.0312
+r_real_ann       0.5000   0.2500   0.1250   0.0625   0.0312
+m_growth_ann    -0.1429  -0.0714  -0.0357  -0.0179  -0.0089
+nu               0.5000   0.2500   0.1250   0.0625   0.0312
+
+MODEL SUMMARY
+
+  Number of variables:         16
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  10
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a    eps_nu
+eps_a        0.000000  0.000000
+eps_nu       0.000000  0.062500
+
+POLICY AND TRANSITION FUNCTIONS
+                               y_gap          pi_ann           i_ann      r_real_ann    m_growth_ann              nu
+y(-1)                              0               0               0               0       -4.000000               0
+i(-1)                              0               0               0               0       16.000000               0
+nu(-1)                     -0.561687       -0.595783        0.825483        1.123374       -6.144461        0.500000
+a(-1)                      -0.093542       -0.459688       -0.736302       -0.322583        5.711355               0
+eps_a                      -0.103935       -0.510764       -0.818114       -0.358426        6.345950               0
+eps_nu                     -1.123374       -1.191565        1.650965        2.246748      -12.288922        1.000000
+
+
+THEORETICAL MOMENTS
+VARIABLE             MEAN  STD. DEV.   VARIANCE
+y_gap              0.0000     0.3243     0.1052
+pi_ann             0.0000     0.3440     0.1183
+i_ann              0.0000     0.4766     0.2271
+r_real_ann         0.0000     0.6486     0.4207
+m_growth_ann       0.0000     3.3886    11.4829
+nu                 0.0000     0.2887     0.0833
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                 eps_a  eps_nu
+y_gap             0.00  100.00
+pi_ann            0.00  100.00
+i_ann             0.00  100.00
+r_real_ann        0.00  100.00
+m_growth_ann      0.00  100.00
+nu                0.00  100.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables              y_gap        pi_ann         i_ann    r_real_ann  m_growth_ann            nu
+y_gap                 1.0000        1.0000       -1.0000       -1.0000        0.5742       -1.0000
+pi_ann                1.0000        1.0000       -1.0000       -1.0000        0.5742       -1.0000
+i_ann                -1.0000       -1.0000        1.0000        1.0000       -0.5742        1.0000
+r_real_ann           -1.0000       -1.0000        1.0000        1.0000       -0.5742        1.0000
+m_growth_ann          0.5742        0.5742       -0.5742       -0.5742        1.0000       -0.5742
+nu                   -1.0000       -1.0000        1.0000        1.0000       -0.5742        1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                 1        2        3        4        5
+y_gap            0.5000   0.2500   0.1250   0.0625   0.0312
+pi_ann           0.5000   0.2500   0.1250   0.0625   0.0313
+i_ann            0.5000   0.2500   0.1250   0.0625   0.0312
+r_real_ann       0.5000   0.2500   0.1250   0.0625   0.0312
+m_growth_ann    -0.2423  -0.1211  -0.0606  -0.0303  -0.0151
+nu               0.5000   0.2500   0.1250   0.0625   0.0312
+
+MODEL SUMMARY
+
+  Number of variables:         16
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  10
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a    eps_nu
+eps_a        0.000000  0.000000
+eps_nu       0.000000  0.062500
+
+POLICY AND TRANSITION FUNCTIONS
+                               y_gap          pi_ann           i_ann      r_real_ann    m_growth_ann              nu
+y(-1)                              0               0               0               0       -4.000000               0
+i(-1)                              0               0               0               0       16.000000               0
+nu(-1)                     -0.664474       -0.338816        1.159539        1.328947       -7.634868        0.500000
+a(-1)                      -0.155344       -0.366983       -0.628147       -0.297862        5.124228               0
+eps_a                      -0.172605       -0.407759       -0.697941       -0.330958        5.693587               0
+eps_nu                     -1.328947       -0.677632        2.319079        2.657895      -15.269737        1.000000
+
+
+THEORETICAL MOMENTS
+VARIABLE             MEAN  STD. DEV.   VARIANCE
+y_gap              0.0000     0.3836     0.1472
+pi_ann             0.0000     0.1956     0.0383
+i_ann              0.0000     0.6695     0.4482
+r_real_ann         0.0000     0.7673     0.5887
+m_growth_ann       0.0000     4.3135    18.6064
+nu                 0.0000     0.2887     0.0833
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                 eps_a  eps_nu
+y_gap             0.00  100.00
+pi_ann            0.00  100.00
+i_ann             0.00  100.00
+r_real_ann        0.00  100.00
+m_growth_ann      0.00  100.00
+nu                0.00  100.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables              y_gap        pi_ann         i_ann    r_real_ann  m_growth_ann            nu
+y_gap                 1.0000        1.0000       -1.0000       -1.0000        0.5336       -1.0000
+pi_ann                1.0000        1.0000       -1.0000       -1.0000        0.5336       -1.0000
+i_ann                -1.0000       -1.0000        1.0000        1.0000       -0.5336        1.0000
+r_real_ann           -1.0000       -1.0000        1.0000        1.0000       -0.5336        1.0000
+m_growth_ann          0.5336        0.5336       -0.5336       -0.5336        1.0000       -0.5336
+nu                   -1.0000       -1.0000        1.0000        1.0000       -0.5336        1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                 1        2        3        4        5
+y_gap            0.5000   0.2500   0.1250   0.0625   0.0312
+pi_ann           0.5000   0.2500   0.1250   0.0625   0.0312
+i_ann            0.5000   0.2500   0.1250   0.0625   0.0313
+r_real_ann       0.5000   0.2500   0.1250   0.0625   0.0313
+m_growth_ann    -0.2485  -0.1242  -0.0621  -0.0311  -0.0155
+nu               0.5000   0.2500   0.1250   0.0625   0.0312
+
+
+Residuals of the static equations:
+Equation number  1: pi           :       0.000000
+Equation number  2: y_gap        :       0.000000
+Equation number  3: i            :       0.000000
+Equation number  4: r_nat        :       0.000000
+Equation number  5: r_real       :       0.000000
+Equation number  6: y_nat        :       0.000000
+Equation number  7: 7            :       0.000000
+Equation number  8: nu           :       0.000000
+Equation number  9: a            :       0.000000
+Equation number 10: y            :       0.000000
+Equation number 11: m_growth_ann :       0.000000
+Equation number 12: m_real       :       0.000000
+Equation number 13: i_ann        :       0.000000
+Equation number 14: r_real_ann   :       0.000000
+Equation number 15: r_nat_ann    :       0.000000
+Equation number 16: pi_ann       :       0.000000
+
+
+
+STEADY-STATE RESULTS:
+
+pi           		 0
+y_gap        		 0
+y_nat        		 0
+y            		 0
+r_nat        		 0
+r_real       		 0
+i            		 0
+n            		 0
+m_real       		 0
+m_growth_ann 		 0
+a            		 0
+r_real_ann   		 0
+i_ann        		 0
+r_nat_ann    		 0
+pi_ann       		 0
+nu           		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+               0                0                0
+               0                0                0
+             0.5              0.5                0
+             0.9              0.9                0
+           1.153            1.132           0.2197
+           1.153            1.132          -0.2197
+             Inf              Inf                0
+
+There are 3 eigenvalue(s) larger than 1 in modulus for 3 forward-looking variable(s)
+The rank condition is verified.
+
+
+MODEL SUMMARY
+
+  Number of variables:         16
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  10
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a    eps_nu
+eps_a        0.000000  0.000000
+eps_nu       0.000000  0.062500
+
+POLICY AND TRANSITION FUNCTIONS
+                               y_gap          pi_ann           i_ann      r_real_ann    m_growth_ann              nu
+y(-1)                              0               0               0               0       -4.000000               0
+i(-1)                              0               0               0               0       16.000000               0
+nu(-1)                     -0.569817       -0.575458        0.851904        1.139633       -6.262341        0.500000
+a(-1)                      -0.097105       -0.454343       -0.730067       -0.321158        5.677506               0
+eps_a                      -0.107894       -0.504826       -0.811185       -0.356842        6.308340               0
+eps_nu                     -1.139633       -1.150917        1.703808        2.279267      -12.524683        1.000000
+
+
+THEORETICAL MOMENTS
+VARIABLE             MEAN  STD. DEV.   VARIANCE
+y_gap              0.0000     0.3290     0.1082
+pi_ann             0.0000     0.3322     0.1104
+i_ann              0.0000     0.4918     0.2419
+r_real_ann         0.0000     0.6580     0.4329
+m_growth_ann       0.0000     3.4614    11.9815
+nu                 0.0000     0.2887     0.0833
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                 eps_a  eps_nu
+y_gap             0.00  100.00
+pi_ann            0.00  100.00
+i_ann             0.00  100.00
+r_real_ann        0.00  100.00
+m_growth_ann      0.00  100.00
+nu                0.00  100.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables              y_gap        pi_ann         i_ann    r_real_ann  m_growth_ann            nu
+y_gap                 1.0000        1.0000       -1.0000       -1.0000        0.5703       -1.0000
+pi_ann                1.0000        1.0000       -1.0000       -1.0000        0.5703       -1.0000
+i_ann                -1.0000       -1.0000        1.0000        1.0000       -0.5703        1.0000
+r_real_ann           -1.0000       -1.0000        1.0000        1.0000       -0.5703        1.0000
+m_growth_ann          0.5703        0.5703       -0.5703       -0.5703        1.0000       -0.5703
+nu                   -1.0000       -1.0000        1.0000        1.0000       -0.5703        1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                 1        2        3        4        5
+y_gap            0.5000   0.2500   0.1250   0.0625   0.0313
+pi_ann           0.5000   0.2500   0.1250   0.0625   0.0313
+i_ann            0.5000   0.2500   0.1250   0.0625   0.0312
+r_real_ann       0.5000   0.2500   0.1250   0.0625   0.0312
+m_growth_ann    -0.2431  -0.1215  -0.0608  -0.0304  -0.0152
+nu               0.5000   0.2500   0.1250   0.0625   0.0313
+
+MODEL SUMMARY
+
+  Number of variables:         16
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  10
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a    eps_nu
+eps_a        0.000000  0.000000
+eps_nu       0.000000  0.062500
+
+POLICY AND TRANSITION FUNCTIONS
+                               y_gap          pi_ann           i_ann      r_real_ann    m_growth_ann              nu
+y(-1)                              0               0               0               0       -4.000000               0
+i(-1)                              0               0               0               0       16.000000               0
+nu(-1)                     -0.569817       -0.575458        0.851904        1.139633       -6.262341        0.500000
+a(-1)                      -0.097105       -0.454343       -0.730067       -0.321158        5.677506               0
+eps_a                      -0.107894       -0.504826       -0.811185       -0.356842        6.308340               0
+eps_nu                     -1.139633       -1.150917        1.703808        2.279267      -12.524683        1.000000
+
+
+THEORETICAL MOMENTS
+VARIABLE             MEAN  STD. DEV.   VARIANCE
+y_gap              0.0000     0.3290     0.1082
+pi_ann             0.0000     0.3322     0.1104
+i_ann              0.0000     0.4918     0.2419
+r_real_ann         0.0000     0.6580     0.4329
+m_growth_ann       0.0000     3.4614    11.9815
+nu                 0.0000     0.2887     0.0833
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                 eps_a  eps_nu
+y_gap             0.00  100.00
+pi_ann            0.00  100.00
+i_ann             0.00  100.00
+r_real_ann        0.00  100.00
+m_growth_ann      0.00  100.00
+nu                0.00  100.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables              y_gap        pi_ann         i_ann    r_real_ann  m_growth_ann            nu
+y_gap                 1.0000        1.0000       -1.0000       -1.0000        0.5703       -1.0000
+pi_ann                1.0000        1.0000       -1.0000       -1.0000        0.5703       -1.0000
+i_ann                -1.0000       -1.0000        1.0000        1.0000       -0.5703        1.0000
+r_real_ann           -1.0000       -1.0000        1.0000        1.0000       -0.5703        1.0000
+m_growth_ann          0.5703        0.5703       -0.5703       -0.5703        1.0000       -0.5703
+nu                   -1.0000       -1.0000        1.0000        1.0000       -0.5703        1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                 1        2        3        4        5
+y_gap            0.5000   0.2500   0.1250   0.0625   0.0313
+pi_ann           0.5000   0.2500   0.1250   0.0625   0.0313
+i_ann            0.5000   0.2500   0.1250   0.0625   0.0312
+r_real_ann       0.5000   0.2500   0.1250   0.0625   0.0312
+m_growth_ann    -0.2431  -0.1215  -0.0608  -0.0304  -0.0152
+nu               0.5000   0.2500   0.1250   0.0625   0.0313
+
+MODEL SUMMARY
+
+  Number of variables:         16
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  10
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a    eps_nu
+eps_a        0.000000  0.000000
+eps_nu       0.000000  0.062500
+
+POLICY AND TRANSITION FUNCTIONS
+                               y_gap          pi_ann           i_ann      r_real_ann    m_growth_ann              nu
+y(-1)                              0               0               0               0       -4.000000               0
+i(-1)                      -0.644328       -0.513325        1.453924        1.640508        7.093667               0
+nu(-1)                     -1.029056       -1.243124        0.810393        1.535954       -8.600921        0.500000
+a(-1)                      -0.194740       -0.455890       -0.390602       -0.030428        3.927561               0
+eps_a                      -0.216378       -0.506544       -0.434003       -0.033809        4.363956               0
+eps_nu                     -2.058113       -2.486248        1.620786        3.071908      -17.201842        1.000000
+
+
+THEORETICAL MOMENTS
+VARIABLE             MEAN  STD. DEV.   VARIANCE
+y_gap              0.0000     0.6459     0.4172
+pi_ann             0.0000     0.7575     0.5738
+i_ann              0.0000     0.6036     0.3643
+r_real_ann         0.0000     1.0274     1.0556
+m_growth_ann       0.0000     4.4895    20.1556
+nu                 0.0000     0.2887     0.0833
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                 eps_a  eps_nu
+y_gap             0.00  100.00
+pi_ann            0.00  100.00
+i_ann             0.00  100.00
+r_real_ann        0.00  100.00
+m_growth_ann      0.00  100.00
+nu                0.00  100.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables              y_gap        pi_ann         i_ann    r_real_ann  m_growth_ann            nu
+y_gap                 1.0000        0.9991       -0.9815       -0.9967        0.6092       -0.9912
+pi_ann                0.9991        1.0000       -0.9724       -0.9924        0.6422       -0.9959
+i_ann                -0.9815       -0.9724        1.0000        0.9937       -0.4473        0.9474
+r_real_ann           -0.9967       -0.9924        0.9937        1.0000       -0.5438        0.9772
+m_growth_ann          0.6092        0.6422       -0.4473       -0.5438        1.0000       -0.7080
+nu                   -0.9912       -0.9959        0.9474        0.9772       -0.7080        1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                 1        2        3        4        5
+y_gap            0.6036   0.3395   0.1834   0.0967   0.0502
+pi_ann           0.5713   0.3115   0.1652   0.0860   0.0442
+i_ann            0.7307   0.4492   0.2551   0.1386   0.0733
+r_real_ann       0.6611   0.3891   0.2159   0.1157   0.0606
+m_growth_ann    -0.0657  -0.1345  -0.1042  -0.0656  -0.0377
+nu               0.5000   0.2500   0.1250   0.0625   0.0312
+
+MODEL SUMMARY
+
+  Number of variables:         16
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  10
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a    eps_nu
+eps_a        0.000000  0.000000
+eps_nu       0.000000  0.062500
+
+POLICY AND TRANSITION FUNCTIONS
+                               y_gap          pi_ann           i_ann      r_real_ann    m_growth_ann              nu
+y(-1)                              0               0               0               0       -4.000000               0
+i(-1)                      -2.092785       -2.426093        2.262893        3.635391       -3.848809               0
+nu(-1)                     -2.284781       -3.253308        0.795529        2.904691      -15.574552        0.500000
+a(-1)                      -0.328345       -0.510968       -0.186125        0.160857        2.520153               0
+eps_a                      -0.364827       -0.567742       -0.206805        0.178730        2.800170               0
+eps_nu                     -4.569563       -6.506616        1.591059        5.809381      -31.149103        1.000000
+
+
+THEORETICAL MOMENTS
+VARIABLE             MEAN  STD. DEV.   VARIANCE
+y_gap              0.0000     1.5277     2.3340
+pi_ann             0.0000     2.1123     4.4618
+i_ann              0.0000     0.7450     0.5550
+r_real_ann         0.0000     2.0608     4.2470
+m_growth_ann       0.0000     7.9008    62.4227
+nu                 0.0000     0.2887     0.0833
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                 eps_a  eps_nu
+y_gap             0.00  100.00
+pi_ann            0.00  100.00
+i_ann             0.00  100.00
+r_real_ann        0.00  100.00
+m_growth_ann      0.00  100.00
+nu                0.00  100.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables              y_gap        pi_ann         i_ann    r_real_ann  m_growth_ann            nu
+y_gap                 1.0000        0.9993       -0.9542       -0.9976        0.6511       -0.9731
+pi_ann                0.9993        1.0000       -0.9422       -0.9943        0.6782       -0.9812
+i_ann                -0.9542       -0.9422        1.0000        0.9725       -0.4042        0.8597
+r_real_ann           -0.9976       -0.9943        0.9725        1.0000       -0.5997        0.9550
+m_growth_ann          0.6511        0.6782       -0.4042       -0.5997        1.0000       -0.8008
+nu                   -0.9731       -0.9812        0.8597        0.9550       -0.8008        1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                 1        2        3        4        5
+y_gap            0.6636   0.4243   0.2645   0.1619   0.0977
+pi_ann           0.6378   0.3968   0.2425   0.1462   0.0872
+i_ann            0.8307   0.6025   0.4071   0.2634   0.1656
+r_real_ann       0.7081   0.4718   0.3025   0.1889   0.1158
+m_growth_ann    -0.0112  -0.0762  -0.0780  -0.0616  -0.0436
+nu               0.5000   0.2500   0.1250   0.0625   0.0312
+
+MODEL SUMMARY
+
+  Number of variables:         16
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  10
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a    eps_nu
+eps_a        0.000000  0.000000
+eps_nu       0.000000  0.062500
+
+POLICY AND TRANSITION FUNCTIONS
+                               y_gap          pi_ann           i_ann      r_real_ann    m_growth_ann              nu
+y(-1)                              0               0               0               0       -4.000000               0
+i(-1)                      -8.198371      -12.330050        2.670287       10.901480      -39.804680               0
+nu(-1)                     -8.239841      -13.186220        0.805037        9.879686      -49.365732        0.500000
+a(-1)                      -0.490421       -0.629518       -0.059474        0.323761        1.246696               0
+eps_a                      -0.544912       -0.699465       -0.066083        0.359735        1.385217               0
+eps_nu                    -16.479681      -26.372441        1.610075       19.759371      -98.731465        1.000000
+
+
+THEORETICAL MOMENTS
+VARIABLE             MEAN  STD. DEV.   VARIANCE
+y_gap              0.0000     5.7194    32.7116
+pi_ann             0.0000     9.0413    81.7443
+i_ann              0.0000     0.8833     0.7802
+r_real_ann         0.0000     7.0126    49.1765
+m_growth_ann       0.0000    24.7249   611.3208
+nu                 0.0000     0.2887     0.0833
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                 eps_a  eps_nu
+y_gap             0.00  100.00
+pi_ann            0.00  100.00
+i_ann             0.00  100.00
+r_real_ann        0.00  100.00
+m_growth_ann      0.00  100.00
+nu                0.00  100.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables              y_gap        pi_ann         i_ann    r_real_ann  m_growth_ann            nu
+y_gap                 1.0000        0.9999       -0.9341       -0.9997        0.6905       -0.9568
+pi_ann                0.9999        1.0000       -0.9287       -0.9992        0.7000       -0.9610
+i_ann                -0.9341       -0.9287        1.0000        0.9430       -0.4118        0.7898
+r_real_ann           -0.9997       -0.9992        0.9430        1.0000       -0.6734        0.9490
+m_growth_ann          0.6905        0.7000       -0.4118       -0.6734        1.0000       -0.8505
+nu                   -0.9568       -0.9610        0.7898        0.9490       -0.8505        1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                 1        2        3        4        5
+y_gap            0.6936   0.4760   0.3243   0.2197   0.1483
+pi_ann           0.6843   0.4651   0.3147   0.2122   0.1427
+i_ann            0.8754   0.6883   0.5114   0.3674   0.2582
+r_real_ann       0.7096   0.4948   0.3408   0.2328   0.1580
+m_growth_ann    -0.0023  -0.0255  -0.0290  -0.0254  -0.0199
+nu               0.5000   0.2500   0.1250   0.0625   0.0313
+
+
+Residuals of the static equations:
+Equation number  1: pi           :       0.000000
+Equation number  2: y_gap        :       0.000000
+Equation number  3: i            :       0.000000
+Equation number  4: r_nat        :       0.000000
+Equation number  5: r_real       :       0.000000
+Equation number  6: y_nat        :       0.000000
+Equation number  7: 7            :       0.000000
+Equation number  8: nu           :       0.000000
+Equation number  9: a            :       0.000000
+Equation number 10: y            :       0.000000
+Equation number 11: m_growth_ann :       0.000000
+Equation number 12: m_real       :       0.000000
+Equation number 13: i_ann        :       0.000000
+Equation number 14: r_real_ann   :       0.000000
+Equation number 15: r_nat_ann    :       0.000000
+Equation number 16: pi_ann       :       0.000000
+
+
+
+STEADY-STATE RESULTS:
+
+pi           		 0
+y_gap        		 0
+y_nat        		 0
+y            		 0
+r_nat        		 0
+r_real       		 0
+i            		 0
+n            		 0
+m_real       		 0
+m_growth_ann 		 0
+a            		 0
+r_real_ann   		 0
+i_ann        		 0
+r_nat_ann    		 0
+pi_ann       		 0
+nu           		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+               0                0                0
+               0                0                0
+             0.5              0.5                0
+             0.9              0.9                0
+           1.153            1.132           0.2197
+           1.153            1.132          -0.2197
+             Inf              Inf                0
+
+There are 3 eigenvalue(s) larger than 1 in modulus for 3 forward-looking variable(s)
+The rank condition is verified.
+
+
+MODEL SUMMARY
+
+  Number of variables:         16
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  10
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a    eps_nu
+eps_a        1.000000  0.000000
+eps_nu       0.000000  0.000000
+
+POLICY AND TRANSITION FUNCTIONS
+                               y_gap          pi_ann               y               n           i_ann      r_real_ann    m_growth_ann               a
+y(-1)                              0               0               0               0               0               0       -4.000000               0
+i(-1)                              0               0               0               0               0               0       16.000000               0
+nu(-1)                     -0.569817       -0.575458       -0.569817       -0.854725        0.851904        1.139633       -6.262341               0
+a(-1)                      -0.097105       -0.454343        0.802895       -0.145657       -0.730067       -0.321158        5.677506        0.900000
+eps_a                      -0.107894       -0.504826        0.892106       -0.161841       -0.811185       -0.356842        6.308340        1.000000
+eps_nu                     -1.139633       -1.150917       -1.139633       -1.709450        1.703808        2.279267      -12.524683               0
+
+
+THEORETICAL MOMENTS
+VARIABLE             MEAN  STD. DEV.   VARIANCE
+y_gap              0.0000     0.2475     0.0613
+pi_ann             0.0000     1.1581     1.3413
+y                  0.0000     2.0466     4.1887
+n                  0.0000     0.3713     0.1379
+i_ann              0.0000     1.8610     3.4633
+r_real_ann         0.0000     0.8187     0.6702
+m_growth_ann       0.0000     6.8252    46.5832
+a                  0.0000     2.2942     5.2632
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                 eps_a  eps_nu
+y_gap           100.00    0.00
+pi_ann          100.00    0.00
+y               100.00    0.00
+n               100.00    0.00
+i_ann           100.00    0.00
+r_real_ann      100.00    0.00
+m_growth_ann    100.00    0.00
+a               100.00    0.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables              y_gap        pi_ann             y             n         i_ann    r_real_ann  m_growth_ann             a
+y_gap                 1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0593       -1.0000
+pi_ann                1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0593       -1.0000
+y                    -1.0000       -1.0000        1.0000       -1.0000       -1.0000       -1.0000        0.0593        1.0000
+n                     1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0593       -1.0000
+i_ann                 1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0593       -1.0000
+r_real_ann            1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0593       -1.0000
+m_growth_ann         -0.0593       -0.0593        0.0593       -0.0593       -0.0593       -0.0593        1.0000        0.0593
+a                    -1.0000       -1.0000        1.0000       -1.0000       -1.0000       -1.0000        0.0593        1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                 1        2        3        4        5
+y_gap            0.9000   0.8100   0.7290   0.6561   0.5905
+pi_ann           0.9000   0.8100   0.7290   0.6561   0.5905
+y                0.9000   0.8100   0.7290   0.6561   0.5905
+n                0.9000   0.8100   0.7290   0.6561   0.5905
+i_ann            0.9000   0.8100   0.7290   0.6561   0.5905
+r_real_ann       0.9000   0.8100   0.7290   0.6561   0.5905
+m_growth_ann    -0.0226  -0.0204  -0.0183  -0.0165  -0.0149
+a                0.9000   0.8100   0.7290   0.6561   0.5905
+
+MODEL SUMMARY
+
+  Number of variables:         16
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  10
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a    eps_nu
+eps_a        1.000000  0.000000
+eps_nu       0.000000  0.000000
+
+POLICY AND TRANSITION FUNCTIONS
+                               y_gap          pi_ann               y               n           i_ann      r_real_ann    m_growth_ann               a
+y(-1)                              0               0               0               0               0               0       -4.000000               0
+i(-1)                              0               0               0               0               0               0       16.000000               0
+nu(-1)                     -0.569817       -0.575458       -0.569817       -0.854725        0.851904        1.139633       -6.262341               0
+a(-1)                      -0.097105       -0.454343        0.802895       -0.145657       -0.730067       -0.321158        5.677506        0.900000
+eps_a                      -0.107894       -0.504826        0.892106       -0.161841       -0.811185       -0.356842        6.308340        1.000000
+eps_nu                     -1.139633       -1.150917       -1.139633       -1.709450        1.703808        2.279267      -12.524683               0
+
+
+THEORETICAL MOMENTS
+VARIABLE             MEAN  STD. DEV.   VARIANCE
+y_gap              0.0000     0.2475     0.0613
+pi_ann             0.0000     1.1581     1.3413
+y                  0.0000     2.0466     4.1887
+n                  0.0000     0.3713     0.1379
+i_ann              0.0000     1.8610     3.4633
+r_real_ann         0.0000     0.8187     0.6702
+m_growth_ann       0.0000     6.8252    46.5832
+a                  0.0000     2.2942     5.2632
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                 eps_a  eps_nu
+y_gap           100.00    0.00
+pi_ann          100.00    0.00
+y               100.00    0.00
+n               100.00    0.00
+i_ann           100.00    0.00
+r_real_ann      100.00    0.00
+m_growth_ann    100.00    0.00
+a               100.00    0.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables              y_gap        pi_ann             y             n         i_ann    r_real_ann  m_growth_ann             a
+y_gap                 1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0593       -1.0000
+pi_ann                1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0593       -1.0000
+y                    -1.0000       -1.0000        1.0000       -1.0000       -1.0000       -1.0000        0.0593        1.0000
+n                     1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0593       -1.0000
+i_ann                 1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0593       -1.0000
+r_real_ann            1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0593       -1.0000
+m_growth_ann         -0.0593       -0.0593        0.0593       -0.0593       -0.0593       -0.0593        1.0000        0.0593
+a                    -1.0000       -1.0000        1.0000       -1.0000       -1.0000       -1.0000        0.0593        1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                 1        2        3        4        5
+y_gap            0.9000   0.8100   0.7290   0.6561   0.5905
+pi_ann           0.9000   0.8100   0.7290   0.6561   0.5905
+y                0.9000   0.8100   0.7290   0.6561   0.5905
+n                0.9000   0.8100   0.7290   0.6561   0.5905
+i_ann            0.9000   0.8100   0.7290   0.6561   0.5905
+r_real_ann       0.9000   0.8100   0.7290   0.6561   0.5905
+m_growth_ann    -0.0226  -0.0204  -0.0183  -0.0165  -0.0149
+a                0.9000   0.8100   0.7290   0.6561   0.5905
+
+MODEL SUMMARY
+
+  Number of variables:         16
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  10
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a    eps_nu
+eps_a        1.000000  0.000000
+eps_nu       0.000000  0.000000
+
+POLICY AND TRANSITION FUNCTIONS
+                               y_gap          pi_ann               y               n           i_ann      r_real_ann    m_growth_ann               a
+y(-1)                              0               0               0               0               0               0       -4.000000               0
+i(-1)                              0               0               0               0               0               0       16.000000               0
+nu(-1)                     -0.092775       -1.768061       -0.092775       -0.139163       -0.698480        0.185551        0.654756               0
+a(-1)                      -0.006682       -0.589977        0.893318       -0.010023       -0.888307       -0.357327        6.536521        0.900000
+eps_a                      -0.007424       -0.655530        0.992576       -0.011137       -0.987007       -0.397030        7.262801        1.000000
+eps_nu                     -0.185551       -3.536123       -0.185551       -0.278326       -1.396960        0.371102        1.309512               0
+
+
+THEORETICAL MOMENTS
+VARIABLE             MEAN  STD. DEV.   VARIANCE
+y_gap              0.0000     0.0170     0.0003
+pi_ann             0.0000     1.5039     2.2617
+y                  0.0000     2.2771     5.1853
+n                  0.0000     0.0255     0.0007
+i_ann              0.0000     2.2643     5.1273
+r_real_ann         0.0000     0.9108     0.8296
+m_growth_ann       0.0000     7.9245    62.7978
+a                  0.0000     2.2942     5.2632
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                 eps_a  eps_nu
+y_gap           100.00    0.00
+pi_ann          100.00    0.00
+y               100.00    0.00
+n               100.00    0.00
+i_ann           100.00    0.00
+r_real_ann      100.00    0.00
+m_growth_ann    100.00    0.00
+a               100.00    0.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables              y_gap        pi_ann             y             n         i_ann    r_real_ann  m_growth_ann             a
+y_gap                 1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0395       -1.0000
+pi_ann                1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0395       -1.0000
+y                    -1.0000       -1.0000        1.0000       -1.0000       -1.0000       -1.0000        0.0395        1.0000
+n                     1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0395       -1.0000
+i_ann                 1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0395       -1.0000
+r_real_ann            1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0395       -1.0000
+m_growth_ann         -0.0395       -0.0395        0.0395       -0.0395       -0.0395       -0.0395        1.0000        0.0395
+a                    -1.0000       -1.0000        1.0000       -1.0000       -1.0000       -1.0000        0.0395        1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                 1        2        3        4        5
+y_gap            0.9000   0.8100   0.7290   0.6561   0.5905
+pi_ann           0.9000   0.8100   0.7290   0.6561   0.5905
+y                0.9000   0.8100   0.7290   0.6561   0.5905
+n                0.9000   0.8100   0.7290   0.6561   0.5905
+i_ann            0.9000   0.8100   0.7290   0.6561   0.5905
+r_real_ann       0.9000   0.8100   0.7290   0.6561   0.5905
+m_growth_ann    -0.0158  -0.0142  -0.0128  -0.0115  -0.0104
+a                0.9000   0.8100   0.7290   0.6561   0.5905
+
+
+Residuals of the static equations:
+Equation number  1: pi           :       0.000000
+Equation number  2: y_gap        :       0.000000
+Equation number  3: i            :       0.000000
+Equation number  4: r_nat        :       0.000000
+Equation number  5: r_real       :       0.000000
+Equation number  6: y_nat        :       0.000000
+Equation number  7: 7            :       0.000000
+Equation number  8: nu           :       0.000000
+Equation number  9: a            :       0.000000
+Equation number 10: y            :       0.000000
+Equation number 11: m_growth_ann :       0.000000
+Equation number 12: m_real       :       0.000000
+Equation number 13: i_ann        :       0.000000
+Equation number 14: r_real_ann   :       0.000000
+Equation number 15: r_nat_ann    :       0.000000
+Equation number 16: pi_ann       :       0.000000
+
+
+
+STEADY-STATE RESULTS:
+
+pi           		 0
+y_gap        		 0
+y_nat        		 0
+y            		 0
+r_nat        		 0
+r_real       		 0
+i            		 0
+n            		 0
+m_real       		 0
+m_growth_ann 		 0
+a            		 0
+r_real_ann   		 0
+i_ann        		 0
+r_nat_ann    		 0
+pi_ann       		 0
+nu           		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+               0                0                0
+               0                0                0
+             0.5              0.5                0
+             0.9              0.9                0
+           1.153            1.132           0.2197
+           1.153            1.132          -0.2197
+             Inf              Inf                0
+
+There are 3 eigenvalue(s) larger than 1 in modulus for 3 forward-looking variable(s)
+The rank condition is verified.
+
+
+MODEL SUMMARY
+
+  Number of variables:         16
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  10
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a    eps_nu
+eps_a        1.000000  0.000000
+eps_nu       0.000000  0.000000
+
+POLICY AND TRANSITION FUNCTIONS
+                               y_gap          pi_ann               y               n           i_ann      r_real_ann    m_growth_ann               a
+y(-1)                              0               0               0               0               0               0       -4.000000               0
+i(-1)                              0               0               0               0               0               0       16.000000               0
+nu(-1)                     -0.569817       -0.575458       -0.569817       -0.854725        0.851904        1.139633       -6.262341               0
+a(-1)                      -0.097105       -0.454343        0.802895       -0.145657       -0.730067       -0.321158        5.677506        0.900000
+eps_a                      -0.107894       -0.504826        0.892106       -0.161841       -0.811185       -0.356842        6.308340        1.000000
+eps_nu                     -1.139633       -1.150917       -1.139633       -1.709450        1.703808        2.279267      -12.524683               0
+
+
+THEORETICAL MOMENTS
+VARIABLE             MEAN  STD. DEV.   VARIANCE
+y_gap              0.0000     0.2475     0.0613
+pi_ann             0.0000     1.1581     1.3413
+y                  0.0000     2.0466     4.1887
+n                  0.0000     0.3713     0.1379
+i_ann              0.0000     1.8610     3.4633
+r_real_ann         0.0000     0.8187     0.6702
+m_growth_ann       0.0000     6.8252    46.5832
+a                  0.0000     2.2942     5.2632
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                 eps_a  eps_nu
+y_gap           100.00    0.00
+pi_ann          100.00    0.00
+y               100.00    0.00
+n               100.00    0.00
+i_ann           100.00    0.00
+r_real_ann      100.00    0.00
+m_growth_ann    100.00    0.00
+a               100.00    0.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables              y_gap        pi_ann             y             n         i_ann    r_real_ann  m_growth_ann             a
+y_gap                 1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0593       -1.0000
+pi_ann                1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0593       -1.0000
+y                    -1.0000       -1.0000        1.0000       -1.0000       -1.0000       -1.0000        0.0593        1.0000
+n                     1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0593       -1.0000
+i_ann                 1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0593       -1.0000
+r_real_ann            1.0000        1.0000       -1.0000        1.0000        1.0000        1.0000       -0.0593       -1.0000
+m_growth_ann         -0.0593       -0.0593        0.0593       -0.0593       -0.0593       -0.0593        1.0000        0.0593
+a                    -1.0000       -1.0000        1.0000       -1.0000       -1.0000       -1.0000        0.0593        1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                 1        2        3        4        5
+y_gap            0.9000   0.8100   0.7290   0.6561   0.5905
+pi_ann           0.9000   0.8100   0.7290   0.6561   0.5905
+y                0.9000   0.8100   0.7290   0.6561   0.5905
+n                0.9000   0.8100   0.7290   0.6561   0.5905
+i_ann            0.9000   0.8100   0.7290   0.6561   0.5905
+r_real_ann       0.9000   0.8100   0.7290   0.6561   0.5905
+m_growth_ann    -0.0226  -0.0204  -0.0183  -0.0165  -0.0149
+a                0.9000   0.8100   0.7290   0.6561   0.5905
+
+
+Residuals of the static equations:
+Equation number  1: pi           :       0.000000
+Equation number  2: y_gap        :       0.000000
+Equation number  3: i            :       0.000000
+Equation number  4: r_nat        :       0.000000
+Equation number  5: r_real       :       0.000000
+Equation number  6: y_nat        :       0.000000
+Equation number  7: 7            :       0.000000
+Equation number  8: nu           :       0.000000
+Equation number  9: a            :       0.000000
+Equation number 10: y            :       0.000000
+Equation number 11: m_growth_ann :       0.000000
+Equation number 12: m_real       :       0.000000
+Equation number 13: i_ann        :       0.000000
+Equation number 14: r_real_ann   :       0.000000
+Equation number 15: r_nat_ann    :       0.000000
+Equation number 16: pi_ann       :       0.000000
+
+
+
+STEADY-STATE RESULTS:
+
+pi           		 0
+y_gap        		 0
+y_nat        		 0
+y            		 0
+r_nat        		 0
+r_real       		 0
+i            		 0
+n            		 0
+m_real       		 0
+m_growth_ann 		 0
+a            		 0
+r_real_ann   		 0
+i_ann        		 0
+r_nat_ann    		 0
+pi_ann       		 0
+nu           		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+               0                0                0
+               0                0                0
+             0.5              0.5                0
+             0.9              0.9                0
+           1.153            1.132           0.2197
+           1.153            1.132          -0.2197
+             Inf              Inf                0
+
+There are 3 eigenvalue(s) larger than 1 in modulus for 3 forward-looking variable(s)
+The rank condition is verified.
+
+
+MODEL SUMMARY
+
+  Number of variables:         16
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  10
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a    eps_nu
+eps_a        0.000000  0.000000
+eps_nu       0.000000  0.062500
+
+POLICY AND TRANSITION FUNCTIONS
+                               y_gap          pi_ann           i_ann      r_real_ann    m_growth_ann              nu
+y(-1)                              0               0               0               0       -4.000000               0
+i(-1)                              0               0               0               0       16.000000               0
+nu(-1)                     -0.569817       -0.575458        0.851904        1.139633       -6.262341        0.500000
+a(-1)                      -0.097105       -0.454343       -0.730067       -0.321158        5.677506               0
+eps_a                      -0.107894       -0.504826       -0.811185       -0.356842        6.308340               0
+eps_nu                     -1.139633       -1.150917        1.703808        2.279267      -12.524683        1.000000
+
+
+THEORETICAL MOMENTS
+VARIABLE             MEAN  STD. DEV.   VARIANCE
+y_gap              0.0000     0.3290     0.1082
+pi_ann             0.0000     0.3322     0.1104
+i_ann              0.0000     0.4918     0.2419
+r_real_ann         0.0000     0.6580     0.4329
+m_growth_ann       0.0000     3.4614    11.9815
+nu                 0.0000     0.2887     0.0833
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                 eps_a  eps_nu
+y_gap             0.00  100.00
+pi_ann            0.00  100.00
+i_ann             0.00  100.00
+r_real_ann        0.00  100.00
+m_growth_ann      0.00  100.00
+nu                0.00  100.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables              y_gap        pi_ann         i_ann    r_real_ann  m_growth_ann            nu
+y_gap                 1.0000        1.0000       -1.0000       -1.0000        0.5703       -1.0000
+pi_ann                1.0000        1.0000       -1.0000       -1.0000        0.5703       -1.0000
+i_ann                -1.0000       -1.0000        1.0000        1.0000       -0.5703        1.0000
+r_real_ann           -1.0000       -1.0000        1.0000        1.0000       -0.5703        1.0000
+m_growth_ann          0.5703        0.5703       -0.5703       -0.5703        1.0000       -0.5703
+nu                   -1.0000       -1.0000        1.0000        1.0000       -0.5703        1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                 1        2        3        4        5
+y_gap            0.5000   0.2500   0.1250   0.0625   0.0313
+pi_ann           0.5000   0.2500   0.1250   0.0625   0.0313
+i_ann            0.5000   0.2500   0.1250   0.0625   0.0312
+r_real_ann       0.5000   0.2500   0.1250   0.0625   0.0312
+m_growth_ann    -0.2431  -0.1215  -0.0608  -0.0304  -0.0152
+nu               0.5000   0.2500   0.1250   0.0625   0.0313
+
+MODEL SUMMARY
+
+  Number of variables:         16
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  10
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a    eps_nu
+eps_a        0.000000  0.000000
+eps_nu       0.000000  0.062500
+
+POLICY AND TRANSITION FUNCTIONS
+                               y_gap          pi_ann           i_ann      r_real_ann    m_growth_ann              nu
+y(-1)                              0               0               0               0       -4.000000               0
+i(-1)                              0               0               0               0       16.000000               0
+nu(-1)                     -0.569817       -0.575458        0.851904        1.139633       -6.262341        0.500000
+a(-1)                      -0.097105       -0.454343       -0.730067       -0.321158        5.677506               0
+eps_a                      -0.107894       -0.504826       -0.811185       -0.356842        6.308340               0
+eps_nu                     -1.139633       -1.150917        1.703808        2.279267      -12.524683        1.000000
+
+
+THEORETICAL MOMENTS
+VARIABLE             MEAN  STD. DEV.   VARIANCE
+y_gap              0.0000     0.3290     0.1082
+pi_ann             0.0000     0.3322     0.1104
+i_ann              0.0000     0.4918     0.2419
+r_real_ann         0.0000     0.6580     0.4329
+m_growth_ann       0.0000     3.4614    11.9815
+nu                 0.0000     0.2887     0.0833
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                 eps_a  eps_nu
+y_gap             0.00  100.00
+pi_ann            0.00  100.00
+i_ann             0.00  100.00
+r_real_ann        0.00  100.00
+m_growth_ann      0.00  100.00
+nu                0.00  100.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables              y_gap        pi_ann         i_ann    r_real_ann  m_growth_ann            nu
+y_gap                 1.0000        1.0000       -1.0000       -1.0000        0.5703       -1.0000
+pi_ann                1.0000        1.0000       -1.0000       -1.0000        0.5703       -1.0000
+i_ann                -1.0000       -1.0000        1.0000        1.0000       -0.5703        1.0000
+r_real_ann           -1.0000       -1.0000        1.0000        1.0000       -0.5703        1.0000
+m_growth_ann          0.5703        0.5703       -0.5703       -0.5703        1.0000       -0.5703
+nu                   -1.0000       -1.0000        1.0000        1.0000       -0.5703        1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                 1        2        3        4        5
+y_gap            0.5000   0.2500   0.1250   0.0625   0.0313
+pi_ann           0.5000   0.2500   0.1250   0.0625   0.0313
+i_ann            0.5000   0.2500   0.1250   0.0625   0.0312
+r_real_ann       0.5000   0.2500   0.1250   0.0625   0.0312
+m_growth_ann    -0.2431  -0.1215  -0.0608  -0.0304  -0.0152
+nu               0.5000   0.2500   0.1250   0.0625   0.0313
+
+MODEL SUMMARY
+
+  Number of variables:         16
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  10
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a    eps_nu
+eps_a        0.000000  0.000000
+eps_nu       0.000000  0.062500
+
+POLICY AND TRANSITION FUNCTIONS
+                               y_gap          pi_ann           i_ann      r_real_ann    m_growth_ann              nu
+y(-1)                              0               0               0               0       -4.000000               0
+i(-1)                      -2.092785       -2.426093        2.262893        3.635391       -3.848809               0
+nu(-1)                     -2.284781       -3.253308        0.795529        2.904691      -15.574552        0.500000
+a(-1)                      -0.328345       -0.510968       -0.186125        0.160857        2.520153               0
+eps_a                      -0.364827       -0.567742       -0.206805        0.178730        2.800170               0
+eps_nu                     -4.569563       -6.506616        1.591059        5.809381      -31.149103        1.000000
+
+
+THEORETICAL MOMENTS
+VARIABLE             MEAN  STD. DEV.   VARIANCE
+y_gap              0.0000     1.5277     2.3340
+pi_ann             0.0000     2.1123     4.4618
+i_ann              0.0000     0.7450     0.5550
+r_real_ann         0.0000     2.0608     4.2470
+m_growth_ann       0.0000     7.9008    62.4227
+nu                 0.0000     0.2887     0.0833
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                 eps_a  eps_nu
+y_gap             0.00  100.00
+pi_ann            0.00  100.00
+i_ann             0.00  100.00
+r_real_ann        0.00  100.00
+m_growth_ann      0.00  100.00
+nu                0.00  100.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables              y_gap        pi_ann         i_ann    r_real_ann  m_growth_ann            nu
+y_gap                 1.0000        0.9993       -0.9542       -0.9976        0.6511       -0.9731
+pi_ann                0.9993        1.0000       -0.9422       -0.9943        0.6782       -0.9812
+i_ann                -0.9542       -0.9422        1.0000        0.9725       -0.4042        0.8597
+r_real_ann           -0.9976       -0.9943        0.9725        1.0000       -0.5997        0.9550
+m_growth_ann          0.6511        0.6782       -0.4042       -0.5997        1.0000       -0.8008
+nu                   -0.9731       -0.9812        0.8597        0.9550       -0.8008        1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                 1        2        3        4        5
+y_gap            0.6636   0.4243   0.2645   0.1619   0.0977
+pi_ann           0.6378   0.3968   0.2425   0.1462   0.0872
+i_ann            0.8307   0.6025   0.4071   0.2634   0.1656
+r_real_ann       0.7081   0.4718   0.3025   0.1889   0.1158
+m_growth_ann    -0.0112  -0.0762  -0.0780  -0.0616  -0.0436
+nu               0.5000   0.2500   0.1250   0.0625   0.0312
+Total computing time : 0h00m02s
